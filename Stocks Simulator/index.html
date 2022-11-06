@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Simulator</title>
+	<link rel = "icon" href = "trade.png" type = "image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+	<link rel="stylesheet" href="style.css">
+	<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-light py-1">
+		<div class="container-fluid">
+		<a href="#" class="navbar-brand text-"><h2 style="font-family:Quicksand;font-size: 25px;"><img src="trade.png" alt="404" style="width: 40px;"><strong><strong>  StockSimulator</strong></strong></h2></a>
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+			<span class="navbar-toggler-icon my-toggler"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navmenu">
+			<ul class="navbar-nav ">
+				<li class="nav-item">
+					<a href="portfolio.html" class="nav-link"><span class="text-"><b style="color: black;font-family: Quicksand;">Portfolio</b></span></a>
+				</li>
+				<li class="nav-item">
+					<a href="trade.html" class="nav-link"><span class="text-"><b style="color: black;font-family: Quicksand;">Trade</b></span></a>
+				</li>
+				<li class="nav-item">
+					<a href="research.html" class="nav-link"><span class="text-"><b style="color: black;font-family: Quicksand;">Research</b></span></a>
+				</li>
+				<li class="nav-item">
+					<a href="learn.html" class="nav-link"><span class="text-"><b style="color: black;font-family: Quicksand;">How to Invest</b></span></a>
+				</li>
+				<li class="nav-item">
+					<a href="games.html" class="nav-link"><span class="text-"><b style="color: black;font-family: Quicksand;">Games</b></span></a>
+				</li>	
+			</ul>
+			<ul class="navbar-nav ml-auto p-2">
+				<li>
+					<button type="button" class="btn btn-outline-primary btn-sm" style="border-radius: 30px;"><a href="login.html" class="nav-link"><span class="text-"><b style="color: blue;font-family: Quicksand;">Sign Up</b></span></a>
+				</li>
+				<li>
+					<button class="btn btn-primary btn-sm" style="border-radius: 30px;" type="button"><a href="login.html" class="nav-link"><span class="text-"><b style="color: black;font-family: Quicksand;">Log In</b></span></a></button>
+				</li>
+			</ul>
+		</div>
+		</div>
+	</nav>
+	<!--capmarquee-->
+	<div id="two" class="container-fluid">
+<div class="tradingview-widget-container">
+	<div class="tradingview-widget-container__widget"></div>
+	<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+	{
+	"symbols": [
+	  {
+		"proName": "FOREXCOM:SPXUSD",
+		"title": "S&P 500"
+	  },
+	  {
+		"proName": "FOREXCOM:NSXUSD",
+		"title": "US 100"
+	  },
+	  {
+		"proName": "FX_IDC:EURUSD",
+		"title": "EUR/USD"
+	  },
+	  {
+		"proName": "BITSTAMP:BTCUSD",
+		"title": "Bitcoin"
+	  },
+	  {
+		"proName": "BITSTAMP:ETHUSD",
+		"title": "Ethereum"
+	  }
+	],
+	"showSymbolLogo": true,
+	"colorTheme": "light",
+	"isTransparent": false,
+	"displayMode": "adaptive",
+	"locale": "in"
+  }
+	</script>
+  </div>
+	</div>
+	<hr>
+	<!--Youtube Videos-->
+	<div id="three" class="container-fluid d-flex justify-content-center">
+		<div class="card-deck">
+			<div>
+			  <div class="card-body text-center">
+				<iframe style="margin: 0; border-radius: 10px;" width="250px" height="200px" src="https://www.youtube.com/embed/pitBrUMb7PE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<a href="https://youtu.be/pitBrUMb7PE"><p style="color: white;">How to make $500/DAY 🔥🔥</p></a>
+			  </div>
+			</div>
+			<div>
+				<div class="card-body text-center">
+					<iframe style="margin: 0; border-radius: 10px;" width="250px" height="200px" src="https://www.youtube.com/embed/A7fZp9dwELo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<a href="https://youtu.be/A7fZp9dwELo"><p style="color: white;">How Stock Market works ❔</p></a>
+				</div>
+			  </div>
+			  <div>
+				<div class="card-body text-center">
+					<iframe style="margin: 0; border-radius: 10px;" width="250px" height="200px" src="https://www.youtube.com/embed/N6zqatiur3A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<a href="https://youtu.be/N6zqatiur3A"><p style="color: white;">Billionaire Talks 💲💲</p></a>
+				</div>
+			  </div>
+			  <div>
+				<div class="card-body text-center">
+					<iframe style="margin: 0; border-radius: 10px;" width="250px" height="200px" src="https://www.youtube.com/embed/s3CnE2tqQdo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<a href="https://youtu.be/s3CnE2tqQdo"><p style="color: white;">Automate your Stock Prediction</p></a>
+				</div>
+			  </div>
+			  <div>
+				<div class="card-body text-center">
+					<iframe style="margin: 0; border-radius: 10px;" width="250px" height="200px" src="https://www.youtube.com/embed/c-DhUeqeFcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<a href="https://youtu.be/c-DhUeqeFcQ"><p style="color: white;">Is this the end of Euro❔</p></a>
+				</div>
+			  </div>
+			  
+		  </div>
+	</div>
+	<hr>
+	<!--Market Table-->
+	<h2 class="text px-4" style="color: #021B79;">Stock Market</h2>
+	<div class="container-fluid">         
+		<table class="table table-hover">
+		  <thead>
+			<tr>
+			  <th>Ticker</th>
+			  <th>Price</th>
+			  <th>Chg % 1D</th>
+			  <th>Vol 1D</th>
+			  <th>Market Cap</th>
+			  <th>Employees</th>
+			  <th>Sector</th>
+
+			</tr>
+		  </thead>
+		  <tbody>
+			<tr>
+			  <td>RELIANCE INDS</td>
+			  <td>2592.75 <small>INR</small></td>
+			  <td>+1.47%</td>
+			  <td>5.807M</td>
+			  <td>17.292T <small>INR</small></td>
+			  <td>342.982K</td>
+			  <td>Energy Minerals</td>
+			</tr>
+			<tr>
+				<td>TATA CONSULTANCY S</td>
+				<td>3217.40 <small>INR</small></td>
+			 	<td>+0.33%</td>
+				<td>1.46M</td>
+				<td>11.735T <small>INR</small></td>
+				<td>592.195K</td>
+				<td>Technology Services</td>
+			</tr>
+			<tr>
+				<td>HDFC BANK</td>
+			<td>1497.15 <small>INR</small></td>
+			<td>-0.69%</td>
+			<td>5.409M</td>
+			<td>8.409T <small>INR</small></td>
+			<td>141.579K</td>
+			<td>Finance</td>
+			</tr>
+		  </tbody>
+		</table>
+	  </div>
+	<hr>
+	<br>
+	<!--News-->
+	<div id="four" class="container-fluid d-flex justify-content-center py-5">
+<div class="tradingview-widget-container">
+	<div class="tradingview-widget-container__widget"></div>
+	<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-timeline.js" async>
+	{
+	"feedMode": "all_symbols",
+	"colorTheme": "light",
+	"isTransparent": false,
+	"displayMode": "regular",
+	"width": 1060,
+	"height": 830,
+	"locale": "in"
+  }
+	</script>
+  </div>
+	</div>
+	
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>

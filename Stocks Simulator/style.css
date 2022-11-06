@@ -1,0 +1,47 @@
+.navbar-nav > li{
+    padding-left:20px;
+    padding-right:20px;
+  }
+hr{
+  padding: 0;
+  margin: 0;
+}
+p{
+  color: white;
+  font-family: Montserrat;
+  font-weight:bold;
+}
+#two{
+  margin: 0;
+  padding: 0;
+  background: #0575E6; 
+  background: -webkit-linear-gradient(to left, #021B79, #0575E6); 
+  background: linear-gradient(to left, #021B79, #0575E6);
+}
+#three, #four{
+  background: #0575E6; 
+  background: -webkit-linear-gradient(to left, #021B79, #0575E6); 
+  background: linear-gradient(to left, #021B79, #0575E6);
+}
+.nav-item::after {
+  content: '';
+  display: block;
+  width: 0px;
+  height: 2px;
+  background: #021B79;
+  transition: 0.4s
+}
+
+.nav-item:hover::after {
+  width: 100%
+}
+
+.navbar-dark .navbar-nav .active>.nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .show>.nav-link,
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #021B79;
+}
+
