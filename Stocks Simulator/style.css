@@ -11,6 +11,9 @@ p{
   font-family: Montserrat;
   font-weight:bold;
 }
+#head{
+  background: -webkit-linear-gradient(right, #021B79, #0575E6,  #021B79, #0575E6);
+}
 #two{
   margin: 0;
   padding: 0;
@@ -18,10 +21,8 @@ p{
   background: -webkit-linear-gradient(to left, #021B79, #0575E6); 
   background: linear-gradient(to left, #021B79, #0575E6);
 }
-#three, #four{
-  background: #0575E6; 
-  background: -webkit-linear-gradient(to left, #021B79, #0575E6); 
-  background: linear-gradient(to left, #021B79, #0575E6);
+#three, #four{ 
+  background: -webkit-linear-gradient(right, #021B79, #0575E6,  #021B79, #0575E6);
 }
 .nav-item::after {
   content: '';
