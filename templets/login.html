@@ -221,7 +221,7 @@ form .btn input[type="submit"]{
                 {% endfor %}
             <div class="form-inner">
                 
-               <form action="/signin" class="login" method="post">
+               <form action="/index" class="login" method="post">
                 {% csrf_token %}
                 
                 <div class="field">
@@ -236,7 +236,7 @@ form .btn input[type="submit"]{
                   </div>
                   <div class="field btn">
                      <div class="btn-layer"></div>
-                     <input type="submit" value="Login">
+                     <a href="/index"><input type="submit" value="Login"></a>
                   </div>
                   <div class="signup-link">
                      Not a member? <a href="">Signup now</a>

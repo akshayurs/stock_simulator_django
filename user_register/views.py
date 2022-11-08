@@ -11,6 +11,7 @@ from django.contrib import messages
 def home(request):
     return render(request,"login.html")
 
+
 def signup(request):
     if request.method == "POST":
         username=request.POST['username']
@@ -57,7 +58,7 @@ def signin(request):
             return render(request,"index.html")
         else:
             messages.error(request,"incorrect password or email")
-            return redirect('signin')
+            return redirect('home')
     
     
     
