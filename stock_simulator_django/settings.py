@@ -27,7 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['stocksimulatordjango.herokuapp.com',
                  'localhost', '127.0.0.1', '[::1]']
-
+CSRF_TRUSTED_ORIGINS = ['https://stocksimulatordjango.herokuapp.com']
 
 # Application definition
 
