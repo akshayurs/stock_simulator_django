@@ -23,8 +23,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-!quvjm-y9br2jk^a^41xpq^o8q5r@2wez$2r(h3_=2k7o6r07y'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
-
+DEBUG = os.environ.get("DEBUG", True)
+print("DEBUG SET TO ", DEBUG)
 ALLOWED_HOSTS = ['stocksimulatordjango.herokuapp.com',
                  'localhost', '127.0.0.1', '[::1]']
 CSRF_TRUSTED_ORIGINS = ['https://stocksimulatordjango.herokuapp.com']
@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'user_register',
+    'trading'
 ]
 
 MIDDLEWARE = [
